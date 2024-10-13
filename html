@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCTechnologies - Suporte Técnico em Computação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .service {
+            background-color: #eee;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px;
+            flex-basis: 30%;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .service h3 {
+            color: #444;
+        }
+        .service p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .service button {
+            background-color: #444;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .service button:hover {
+            background-color: #333;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #444;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GCTechnologies</h1>
+        <p>Suporte Técnico em Computação - Manutenção de Hardware, Redes e Segurança</p>
+    </header>
+
+    <nav>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Manutenção de Hardware</h3>
+                <p>Oferecemos diagnóstico completo, reparo e substituição de componentes para garantir que seus dispositivos funcionem perfeitamente.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="service">
+                <h3>Instalação e Configuração de Software</h3>
+                <p>Realizamos instalação e configuração de sistemas operacionais, drivers e softwares, otimizando seu ambiente de trabalho.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="service">
+                <h3>Configuração de Redes e Segurança da Informação</h3>
+                <p>Planejamos, configuramos e mantemos redes seguras, garantindo proteção de dados contra ameaças e invasões.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="service">
+                <h3>Consultoria em TI</h3>
+                <p>Auxiliamos na escolha de equipamentos e soluções tecnológicas para otimizar seus sistemas e reduzir custos operacionais.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="service">
+                <h3>Suporte Técnico Remoto</h3>
+                <p>Oferecemos suporte técnico remoto para resolver problemas com agilidade, sem a necessidade de visitas presenciais.</p>
+                <button>Saiba Mais</button>
+            </div>
+
+            <div class="service">
+                <h3>Manutenção Preventiva</h3>
+                <p>Evite falhas e problemas com nossos serviços de manutenção preventiva para empresas e usuários domésticos.</p>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Na GCTechnologies, nos especializamos em oferecer suporte técnico de qualidade para garantir o bom funcionamento de seus dispositivos e redes. Nosso objetivo é fornecer soluções rápidas e eficientes, com foco em segurança e inovação tecnológica.</p>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail" required>
+            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>GCTechnologies | Suporte Técnico em Computação | Hortolândia, SP | 2024</p>
+    </footer>
+</body>
+</html>
